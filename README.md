@@ -4,11 +4,11 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 
 ## Deployment
 
-Link goes here
+https://pokedex-smoky.vercel.app/
 
 ## Todo
 
-- [ ] deploy on vercel or netlify, add link
-- [ ] Remove CRA boilerplate
-- [ ] pick a UI framework (mui for searchbar?)
-- [ ] (maybe) write an intro
+- [x] deploy on **vercel** ~~or netlify~~ and add link
+- [ ] Remove CRA boilerplate, add component placecholders
+- [ ] add a UI framework (mui for searchbar?)
+- [ ] (maybe) write an intro for medium

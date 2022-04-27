@@ -2,7 +2,7 @@
 
 A mobile-friendly app to search and filter pokemon by type, version, move compatibility, and more.
 
-[![Vercel](https://vercelbadge.vercel.app/api/suzannecabral/pokedex?style=for-the-badge)](https://pokedex-smoky.vercel.app/)
+[![Vercel](https://vercelbadge.vercel.app/api/suzannecabral/pokedex?style=for-the-badge)](https://another-pokedex.vercel.app/)
 ![wakatime](https://wakatime.com/badge/user/4fe5a8ac-3a9c-433a-8645-149afb4dcfa1/project/175004d0-22aa-4124-8f23-9d9539339946.svg?style=for-the-badge)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 

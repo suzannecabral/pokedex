@@ -2,11 +2,8 @@
 
 A mobile-friendly app to search and filter pokemon by type, version, move compatibility, and more.
 
-## Deployment
-
-[Deployed Link](https://pokedex-smoky.vercel.app/)
-
-(vercel does not have a shiny deployed badge, sadface)
+[![Vercel](https://vercelbadge.vercel.app/api/suzannecabral/pokedex?style=flat-square)](https://pokedex-smoky.vercel.app/)
+![wakatime](https://wakatime.com/badge/user/4fe5a8ac-3a9c-433a-8645-149afb4dcfa1/project/175004d0-22aa-4124-8f23-9d9539339946.svg?style=flat-square)
 
 ## Features
 
@@ -33,3 +30,7 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 
 - primary color: #ec404e
 - secondary color: #4b8bfb
+
+## Cool Stuff I Found
+
+[Aftermarket Vercel badge doodad](https://github.com/datejer/vercel-badge)

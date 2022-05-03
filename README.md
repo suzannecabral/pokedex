@@ -16,7 +16,7 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 
 ## Housekeeping
 
-- [ ] tidier vercel url?
+- [x] tidier vercel url?
 
 ## Maybe Later
 
@@ -35,3 +35,5 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 ## Cool Stuff I Found
 
 [Aftermarket Vercel badge doodad](https://github.com/datejer/vercel-badge)
+
+[Medium: Fetch in React](https://www.robinwieruch.de/react-fetching-data/)

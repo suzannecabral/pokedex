@@ -1,10 +1,11 @@
+import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import Monster from "./components/Monster";
+import Pokecard from "./components/Pokecard";
 
 function appBarLabel(label) {
 	return (
@@ -20,14 +21,27 @@ function appBarLabel(label) {
 }
 
 function App() {
+	const [pokeList, setPokeList] = React.useState([]);
+	const getPokeList = () => {
+		fetch("https://pokeapi.co/api/v2/pokemon-species/")
+			.then((res) => res.json())
+			.then(setPokeList)
+			.finally(console.log(pokeList));
+	};
+
+	React.useEffect(() => {
+		getPokeList();
+	}, []);
+
 	return (
 		<div>
 			<AppBar enableColorOnDark>{appBarLabel("Pokedex")}</AppBar>
 			{/* Blank toolbar: see MUI docs, bumps page content out from behind app bar. */}
 			<Toolbar />
-			<Monster />
-			<Monster />
-			<Monster />
+			{pokeList &&
+				pokeList.map((pokemon) => {
+					<Pokecard pokemon={pokemon} />;
+				})}
 		</div>
 	);
 }

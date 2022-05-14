@@ -10,8 +10,9 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 
 - [x] deploy on **vercel** ~~or netlify~~ and add link
 - [x] add a UI framework (mui)
-- [ ] load (all?) paginated pokemon URLs
-- [ ] load all gen 1 full info(?)
+- [ ] load data from pokemon URLs
+- [ ] Display a list of name + detail
+- [ ] display styled data cards
 - [ ] progress bar for data loading
 
 ## Housekeeping
@@ -34,6 +35,14 @@ A mobile-friendly app to search and filter pokemon by type, version, move compat
 
 ## Cool Stuff I Found
 
-[Aftermarket Vercel badge doodad](https://github.com/datejer/vercel-badge)
+[Vercel badge doodad](https://github.com/datejer/vercel-badge)
+
+## Useful Refreshers
 
 [Medium: Fetch in React](https://www.robinwieruch.de/react-fetching-data/)
+[Free Code Camp: How to Fetch Data in React](https://www.freecodecamp.org/news/fetch-data-react/)
+
+- try out custom hook
+- .then vs async/await, useEffect conflict
+- "prevent race conditions"
+- React Query Library / useQuery (refetch and validate features)

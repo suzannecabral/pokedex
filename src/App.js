@@ -22,16 +22,20 @@ function appBarLabel(label) {
 
 function App() {
 	const [pokeList, setPokeList] = React.useState([]);
+
 	const getPokeList = () => {
-		fetch("https://pokeapi.co/api/v2/pokemon-species/")
-			.then((res) => res.json())
-			.then(setPokeList)
-			.finally(console.log(pokeList));
+		console.log(
+			"Please relearn useEffect, what exactly should be inside the callback?"
+		);
+		// fetch("https://pokeapi.co/api/v2/pokemon-species/")
+		// 	.then((res) => res.json())
+		// 	.then(setPokeList)
+		// 	.finally(console.log(pokeList));
 	};
 
 	React.useEffect(() => {
 		getPokeList();
-	}, []);
+	}, [pokeList, getPokeList]);
 
 	return (
 		<div>
